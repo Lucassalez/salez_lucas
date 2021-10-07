@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;1,100;1,300 & display=swap');
+
+body{
+	background-image: url(https://images.unsplash.com/photo-1612350445587-ee65a2cc6288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80);
+	background-attachment: fixed;
+	text-align: center;
+}
+div{
+	width: 90%;
+	margin: 24px auto;
+	padding: 24px 48px;
+	background-color: rgba(255,255,255,0.7);
+	border:1px solid rgb(102, 115, 89) ;
+	border-radius: 5px;
+	box-shadow: black 1px 2px 5px 1px;
+}
+h1{
+	color: green;
+	font-size: 32px;
+	font-family: roboto;
+}
+img {
+     border : 2px solid #000000;
+     border-radius: 50%;
+     box-shadow:5px 5px 5px 0 rgba(0,0,0,0.8);
+}
+h2{
+	color:green;
+	font-size: 25px;
+	font-family: roboto;
+	font-weight: 200;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	line-height: 50px;
+	padding-left: 0px;
+}
+.button-blue{
+		padding: 16px;
+    	background-color: rgb(102, 115, 89);
+    	border-radius: 7px;
+   		color: white;
+   		border:solid 1px rgb(102, 115, 89);
+}
+.button-blue:hover {
+	background: white;
+	color: rgb(102, 115, 89);
+	transition:0.5s ;
+}
+.button_FB{
+	padding: 10px;
+	background-color:rgb(59, 89, 152);
+	border-radius: 7px;
+	color:white;
+	border:solid 1px rgb(59, 89, 152);
+}
+.button_FB:hover{
+	background-color: white;
+	color:rgb(59, 89, 152);
+	transition: 0.5s;
+}
+.button_LK{
+	padding: 10px;
+	background-color:white;
+	border-radius: 7px;
+	color:rgb(59, 89, 152);
+	border:solid 1px white;
+}
+.button_LK:hover{
+	background-color: rgb(59, 89, 152);
+	color: white;
+	transition: 0.5s;
+}
+.button_INST{
+	padding: 10px;
+	background-color:rgb(255, 108, 66);
+	border-radius: 7px;
+	color:white;
+	border:solid 1px rgb(255, 108, 66);
+}
+.button_INST:hover{
+	background-color: white;
+	color:rgb(255, 108, 66);
+	transition: 0.5s;
+}
+#introduction-text{
+	margin-bottom: 40px;
+}
+#Follow{
+	background-color:rgba(255,255,255,0);
+	border:none;
+	box-shadow: none;
+}
+.la-reunion{
+
+}
+.Follow{
+	color:white;
+	font-size: 25px;
+	font-family: roboto;
+	font-weight: 200;
+}
+.list-inline li{
+	display: inline;
+	padding: 8px;
+}
