@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;1,100;1,300 & display=swap');
+
+body{
+	text-align: center;
+	margin: 0px;
+	font-family: roboto;
+	background-color: black;
+}
+.intro{
+	background-color: black;
+	margin: 0 0 0 0;
+	color: white;
+	padding:16px;
+}

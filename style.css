@@ -1,35 +1,20 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;1,100;1,300 & display=swap');
 header{
-	font-family: raboto;
+	font-family: roboto;
 }
 #menu{
-		background-color:rgba(255,255,255,0);
+	background-color:rgba(255,255,255,0);
 	border:none;
 	box-shadow: none;
-	margin-bottom: 8px;
+	position: sticky;
+	top: 0;
 }
-.Prolub{
+.pages{
 	text-decoration: none;
 	color: black;
-}
-.Leclerc{
-	text-decoration: none;
-	color: black;
-}
-.Australie{
-	text-decoration: none;
-	color: black;
-}
-.chine{
-	text-decoration: none;
-	color: black;
-}
-.singapour{
-	text-decoration: none;
-	color:black;
 }
 header nav{
-	 margin: 0;
+	 margin:0;
 	 padding: 0;
 	 top: 20%;
 	 margin-top:-4em;
@@ -42,21 +27,23 @@ header nav ul{
 header nav ul li{
 	margin: 0;
 	padding:0;
-	float: left;
-	width: 330px;
-	height: 40px;
 	background: linear-gradient(#667359,white);
+	float: left;
+	width: 310px;
+	height: 40px;
 	line-height: 40px;
 }
 header nav ul li a{
-	display: block;
+	display:block;
 }
 header nav ul li ul li{
 	display: none;
+	text-decoration: none;
 }
 header nav ul li a:hover{
 	background-color: rgba(255,255,255,0.5);
 	transition: 0.5s;
+	color: black !important;
 }
 header nav ul li:hover ul li{
 	display: block;
@@ -66,6 +53,7 @@ body{
 	background-image: url(https://images.unsplash.com/photo-1612350445587-ee65a2cc6288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80);
 	background-attachment: fixed;
 	text-align: center;
+	margin: 0;
 }
 div{
 	width: 90%;
@@ -85,6 +73,7 @@ img {
      border : 1px solid #000000;
      border-radius: 50%;
      box-shadow:5px 5px 5px 0 rgba(0,0,0,0.8);
+     margin-bottom: 8px;
 }
 h2{
 	color:green;

@@ -1,0 +1,33 @@
+body{
+	background-image: url("https://www.image-fond-ecran.fr/resize.php?id=118");
+}
+.banner{
+	background-image: url("../images/singap.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 65VH;	
+}
+.banner h1{
+	background-color: black;
+	color:white;
+	text-align: center;
+	align-items: center;
+	margin: 0px auto;
+	padding: 16px;
+}
+.voyage{
+	margin:16px 16px;
+	padding: 16px 16px;
+	color:white;
+}
+.lieux{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin: 48px 0;
+}
+.photos{
+	text-align: center;
+	margin:16px auto;
+	background-color: rgba(255,255,255,0.7);
+}
